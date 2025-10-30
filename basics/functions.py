@@ -150,6 +150,6 @@ if __name__ == "__main__":
     demonstrate_lambda_functions()
     demonstrate_best_practices()
     demonstrate_common_errors()
-    
+
     запускаем файл
-    python bssics/functions.py
+    python basics/functions.py
