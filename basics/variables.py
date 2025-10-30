@@ -99,6 +99,42 @@ def demonstrate_best_practices() -> None:
     print(f"Средний балл на игрока: {average_score_per_player}")
 
 
+# === Раздел 5: Распространенные ошибки ===
+
+def demonstrate_common_errors() -> None:
+    """
+    Демонстрирует распространенные ошибки при работе с переменными.
+
+    Включает ошибки: использование необъявленных переменных, деление на ноль,
+    некорректное преобразование типов и т.д.
+    """
+    print("\n=== Распространенные ошибки ===")
+
+    # 1. Использование необъявленной переменной
+    try:
+        print(f"Значение необъявленной переменной: {undefined_variable}")
+    except NameError as e:
+        print(f"Ошибка: {e} - Переменная должна быть объявлена перед использованием.")
+
+    # 2. Деление на ноль
+    try:
+        result = 10 / 0
+    except ZeroDivisionError as e:
+        print(f"Ошибка: {e} - Нельзя делить на ноль.")
+
+    # 3. Некорректное преобразование типов
+    try:
+        invalid_conversion = int("not_a_number")
+    except ValueError as e:
+        print(f"Ошибка: {e} - Строка не может быть преобразована в целое число.")
+
+    # 4. Изменение типа переменной без учета контекста
+    value: int = 10
+    value = "string_value"
+    print(f"Переменная после изменения типа: {value} (Тип: {type(value)})")
+    print("Внимание: Переменные могут менять тип, но это может привести к ошибкам в программе.")
+
+
 if __name__ == "__main__":
     """
     Точка входа в модуль.
@@ -109,6 +145,7 @@ if __name__ == "__main__":
     demonstrate_reassignment()
     display_constants()
     demonstrate_best_practices()
+    demonstrate_common_errors()
 
-   Запускаем в терминале
+    Запускать файл
     python basics / variables.py
