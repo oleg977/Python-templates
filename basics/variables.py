@@ -109,3 +109,6 @@ if __name__ == "__main__":
     demonstrate_reassignment()
     display_constants()
     demonstrate_best_practices()
+
+   Запускаем в терминале
+    python basics / variables.py
