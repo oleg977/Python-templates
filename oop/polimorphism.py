@@ -56,5 +56,3 @@ def demonstrate_polymorphism() -> None:
 if __name__ == "__main__":
     demonstrate_polymorphism()
 
-    запускаем файл
-    python oop/polimorphism.py

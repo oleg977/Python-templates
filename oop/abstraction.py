@@ -49,5 +49,3 @@ def demonstrate_abstraction() -> None:
 if __name__ == "__main__":
     demonstrate_abstraction()
 
-   запускаем файл
-    python oop/abstraction.py

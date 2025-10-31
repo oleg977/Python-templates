@@ -50,5 +50,3 @@ def demonstrate_encapsulation() -> None:
 if __name__ == "__main__":
     demonstrate_encapsulation()
 
-    запускаем файл
-    pethon oop/encapsulation.py
