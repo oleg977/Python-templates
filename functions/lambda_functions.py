@@ -24,5 +24,3 @@ def demonstrate_lambda_functions() -> None:
 if __name__ == "__main__":
     demonstrate_lambda_functions()
 
-  запускаем файл
-    python functions/lambda_functions.py

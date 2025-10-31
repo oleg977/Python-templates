@@ -38,5 +38,3 @@ if __name__ == "__main__":
     demonstrate_basic_functions()
     demonstrate_scopes()
 
-    запускаем файл
-    python functions/basic_functions.py

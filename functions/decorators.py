@@ -27,5 +27,3 @@ def say_hello():
 if __name__ == "__main__":
     say_hello()
 
-    запускаем файл
-    python functions/decorators.py

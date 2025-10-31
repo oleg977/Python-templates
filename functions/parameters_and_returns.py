@@ -37,5 +37,3 @@ if __name__ == "__main__":
     demonstrate_parameters_and_returns()
     demonstrate_default_parameters()
 
-    запускаем файл
-    python functions/parameters_and_returns.py

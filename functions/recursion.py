@@ -24,5 +24,3 @@ def demonstrate_recursion() -> None:
 if __name__ == "__main__":
     demonstrate_recursion()
 
-    запускаем файл
-    python functions/recursion.py
