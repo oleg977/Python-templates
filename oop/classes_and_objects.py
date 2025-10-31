@@ -37,5 +37,3 @@ def demonstrate_classes_and_objects() -> None:
 if __name__ == "__main__":
     demonstrate_classes_and_objects()
 
-     запускаем файл
-    python oop/classes_and_objects.py

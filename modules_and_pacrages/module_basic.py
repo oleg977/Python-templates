@@ -23,4 +23,3 @@ if __name__ == "__main__":
     greet("Алиса")
     print(f"Квадрат числа 5: {calculate_square(5)}")
 
-    

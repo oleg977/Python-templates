@@ -55,5 +55,3 @@ def demonstrate_inheritance() -> None:
 if __name__ == "__main__":
     demonstrate_inheritance()
 
-    запускаем файл
-    python oop/inheritance.py

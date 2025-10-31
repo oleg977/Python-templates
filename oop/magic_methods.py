@@ -66,6 +66,3 @@ def demonstrate_magic_methods() -> None:
 
 if __name__ == "__main__":
     demonstrate_magic_methods()
-
-    запускаем файл
-    python oop/magic_methods.py
