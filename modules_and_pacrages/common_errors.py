@@ -36,5 +36,3 @@ def demonstrate_common_errors() -> None:
 if __name__ == "__main__":
     demonstrate_common_errors()
 
-    запускаем файл
-    python modules_and_pacrages/common_errors.py

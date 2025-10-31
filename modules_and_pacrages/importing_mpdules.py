@@ -35,5 +35,3 @@ def demonstrate_imports() -> None:
 if __name__ == "__main__":
     demonstrate_imports()
 
-    запускаем файл
-    python modules_and_pacrages/importing_modules.py

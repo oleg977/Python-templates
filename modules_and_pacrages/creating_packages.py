@@ -29,5 +29,3 @@ def demonstrate_packages() -> None:
 if __name__ == "__main__":
     demonstrate_packages()
 
-    запускаем файл
-    python modules_and_pacrages/creating_packages.py
