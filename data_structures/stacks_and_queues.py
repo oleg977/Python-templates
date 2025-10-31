@@ -1,33 +1,47 @@
 """
-Модуль: dictionaries
---------------------
+Модуль: stacks_and_queues
+-------------------------
 
-Демонстрирует работу со словарями.
+Демонстрирует реализацию стеков и очередей.
 """
 
+from collections import deque
 
-def demonstrate_dictionaries() -> None:
+
+def demonstrate_stacks() -> None:
     """
-    Демонстрирует основные операции со словарями.
+    Демонстрирует работу со стеками.
     """
-    print("=== Словари ===")
+    print("=== Стеки ===")
 
-    student = {
-        "name": "Alice",
-        "age": 25,
-        "courses": ["Math", "Physics"]
-    }
-    print(f"Исходный словарь: {student}")
+    stack = []
+    stack.append("first")
+    stack.append("second")
+    stack.append("third")
+    print(f"Стек: {stack}")
 
-    # Добавление нового ключа
-    student["major"] = "Computer Science"
-    print(f"После добавления ключа: {student}")
+    # Удаление элемента (LIFO)
+    print(f"Удален: {stack.pop()}")
+    print(f"Оставшийся стек: {stack}")
 
-    # Итерация по ключам и значениям
-    print("\nИтерация по ключам и значениям:")
-    for key, value in student.items():
-        print(f"{key}: {value}")
+
+def demonstrate_queues() -> None:
+    """
+    Демонстрирует работу с очередями.
+    """
+    print("\n=== Очереди ===")
+
+    queue = deque()
+    queue.append("first")
+    queue.append("second")
+    queue.append("third")
+    print(f"Очередь: {queue}")
+
+    # Удаление элемента (FIFO)
+    print(f"Удален: {queue.popleft()}")
+    print(f"Оставшаяся очередь: {queue}")
 
 
 if __name__ == "__main__":
-    demonstrate_dictionaries()
+    demonstrate_stacks()
+    demonstrate_queues()
