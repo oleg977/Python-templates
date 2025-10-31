@@ -161,5 +161,3 @@ if __name__ == "__main__":
     demonstrate_dictionaries()
     demonstrate_common_errors()
 
-    запускаем файл
-    python basics / data_types.py
