@@ -147,4 +147,3 @@ if __name__ == "__main__":
     demonstrate_best_practices()
     demonstrate_common_errors()
 
-  
