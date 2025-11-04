@@ -5,3 +5,6 @@ media/
 venv/
 .venv/
 .env
+# Ignore IDE files
+.idea/
+.vscode/
