@@ -14,6 +14,9 @@ git add .            # Добавить все файлы
 Создание комминта
 git commit -m "Commit message"
 
+Создавать коммит конретно, вместо git add .
+git add Python-templates/shoplist/git_basic/
+
 История коммитов
 git log
 
@@ -29,10 +32,12 @@ git log
 ## Добавление одного файла
 ```bash
 git add new_shoplist/manage.py
-Добавление изьенений
+
+Добавление изменений и новых файлов
 git add .
 Забыл добавить или изменить файл
 git commit --amend
+
 Удаление файла
 git reset <file_name>
 
@@ -51,6 +56,9 @@ git remote add origin https://github.com/oleg977/Python-templates.git
 
 Отправк изменений
 git push origin main
+
+Отмена последнего комминта
+git reset --soft HEAD~1
 
 Получение изменений
 git pull origin main
