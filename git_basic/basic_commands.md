@@ -66,6 +66,9 @@ git pull origin main
 Если ошибка  rejected updates
 git pull origin main
 git push origin main
+
+Конфликты с удалённым репозиторием
+git pull origin main --allow-unrelated-histories
 ---
 ### 4. **Работа с ветками**
 

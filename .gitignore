@@ -1,10 +1,23 @@
-*.sqlite3
+
+
 *.pyc
 __pycache__/
-media/
 venv/
 .venv/
 .env
 # Ignore IDE files
 .idea/
 .vscode/
+# Файлы PyCharm
+
+*.iml
+
+# Виртуальное окружение
+
+# Логи, кэш
+*.log
+
+
+# Другие временные файлы
+.DS_Store
+
