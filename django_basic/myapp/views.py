@@ -1,9 +1,19 @@
+# myapp/views.py
+
 from django.shortcuts import render
 
 def index(request):
     """Главная страница."""
-    return render(request, 'index.html')
+    context = {
+        'title': 'Главная страница шаблона',
+        'content': 'Это базовая структура приложения Django.'
+    }
+    return render(request, 'myapp/index.html', context)
 
 def about(request):
-    """Страница 'О нас'."""
-    return render(request, 'about.html')
+    """Страница "О нас"."""
+    context = {
+        'title': 'О проекте',
+        'content': 'Это страница с описанием проекта.'
+    }
+    return render(request, 'myapp/about.html', context)
