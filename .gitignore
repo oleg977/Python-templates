@@ -1,14 +1,23 @@
-# Файлы PyCharm
+
+
+*.pyc
+__pycache__/
+venv/
+.venv/
+.env
+# Ignore IDE files
 .idea/
+.vscode/
+# Файлы PyCharm
+
 *.iml
 
 # Виртуальное окружение
-.venv/
 
 # Логи, кэш
 *.log
-__pycache__/
-*.pyc
+
 
 # Другие временные файлы
 .DS_Store
+
